@@ -14,7 +14,6 @@
     <version>1.5.9.RELEASE</version>
   </parent>
 
-
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -29,6 +28,11 @@
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>nz.net.ultraq.thymeleaf</groupId>
+      <artifactId>thymeleaf-layout-dialect</artifactId>
+      <version>2.0.5</version>
     </dependency>
   </dependencies>
   <build>
